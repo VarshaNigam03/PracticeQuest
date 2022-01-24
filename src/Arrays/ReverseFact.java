@@ -1,3 +1,5 @@
+package Arrays;
+
 public class ReverseFact {
 
     static boolean reverseFact(int num) {

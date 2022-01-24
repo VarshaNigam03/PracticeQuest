@@ -1,4 +1,4 @@
-//get(index), insert(Object item), delete(int index), pop()
+package Arrays;//get(index), insert(Object item), delete(int index), pop()
 
 import java.util.Arrays;
 

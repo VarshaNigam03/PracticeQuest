@@ -1,3 +1,5 @@
+package Arrays;
+
 public class InsertElement {
 
     //rather use arralist to do this operation

@@ -1,3 +1,5 @@
+package Arrays;
+
 import java.util.Arrays;
 
 public class ReverseString {
@@ -6,7 +8,7 @@ public class ReverseString {
      //   if(!str || str.length() <2 || typeOf(str)!="String"){return "Not applicable"};
         char str1;
         String nstr="";
-        for(int i=0; i<=(str.length()-1)/2; i++){
+        for(int i=0; i<(str.length()-1)/2; i++){
             str1= str.charAt(i);
             nstr=str1+nstr;
         }
@@ -27,9 +29,9 @@ public class ReverseString {
     }
 
     public static void main(String []args){
-      //  methodOne("hello");
+        methodOne("hello hello");
       //  methodTwo("hello");
-        methodThree("varsha");
+    //    methodThree("varsha");
     }
 
 

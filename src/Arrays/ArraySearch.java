@@ -1,4 +1,4 @@
-//improved linear search
+package Arrays;//improved linear search
 //1. wen we find the element we were looking for...either we transposition(i--) or move to front/head(i=0)
 
 public class ArraySearch {
@@ -17,8 +17,6 @@ public class ArraySearch {
     static int binarySearch(int find){
         int l=0;
         int h=arr.length-1;
-
-
         while(l<=h){
             int mid=(l+h)/2;
             if(arr[mid]==find)

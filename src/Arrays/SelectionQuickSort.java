@@ -1,3 +1,5 @@
+package Arrays;
+
 public class SelectionQuickSort {
 
     static void selectionSort(int []arr){

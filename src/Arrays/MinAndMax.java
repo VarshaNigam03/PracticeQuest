@@ -1,3 +1,5 @@
+package Arrays;
+
 public class MinAndMax {
 
     //O(n)
@@ -11,8 +13,7 @@ public class MinAndMax {
            else if(arr[i]>max)
                 max=arr[i];
         }
-        System.out.println(max+" "+min);
-
+        System.out.println("max: "+max+" min: "+min);
     }
 
     public static void main(String []args){
