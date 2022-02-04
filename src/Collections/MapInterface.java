@@ -10,6 +10,7 @@ public class MapInterface {
     //advantages of map : key-value: keys are unique
     //values of keys are overriden of same key
     //O(1) : put(), contains, containskey(), remove
+    //HashMap :  non synchronized, one null key , HashTable : Synchronized, no null keys or values
     static void mapMethods(){
         Map<Object, Object> map = new HashMap<>();
         map.put(3,"varsha");

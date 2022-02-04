@@ -13,6 +13,8 @@ public class ListInterface {
     //elements are always added at the end of the list
     // remove O(n), insertO(n), set O(1), contains O(n)
     //methods for ll and al are similar
+    //ordered, index based searches(AL not in LL)
+    //AL is non synchronizes but vector is
     static void arrayList(){
         ArrayList<Object> al= new ArrayList<>();
         List<Object> al1= new ArrayList<>();

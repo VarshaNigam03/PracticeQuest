@@ -8,7 +8,7 @@ import java.util.Queue;
 public class KthSmallest {
 
     static void kthLargest(int []arr,int k){
-        Queue<Integer> pq = new PriorityQueue<>();// largest kth number -- min heap
+        Queue<Integer> pq = new PriorityQueue<>(Comparator.reverseOrder());// largest kth number -- min heap
         for(int i=0; i< arr.length; i++){
             pq.add(arr[i]);
             if(pq.size()>k)
@@ -20,9 +20,9 @@ public class KthSmallest {
     }
 
     public static void main(String []args){
-        int arr[]={5,20,1,10,7};
-        int k=4;
-        int n=arr.length;
+        int arr[]={7,10,4,3,20,15};
+        int k=3;
+   //     int n=arr.length;
              kthLargest(arr,k);
 
     }
