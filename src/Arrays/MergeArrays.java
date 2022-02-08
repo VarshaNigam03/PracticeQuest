@@ -1,5 +1,7 @@
 package Arrays;
 
+
+
 public class MergeArrays {
 
     static int arr1[]={1,3,5,6,8,9,11};
