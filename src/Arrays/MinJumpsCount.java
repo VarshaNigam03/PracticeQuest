@@ -46,10 +46,10 @@ public class MinJumpsCount {
     }
 
     public static void main(String []args){
-       // int arr[]={1,3,5,8,9,2,6,7,6,8,9};
-        int arr1[]={4,3,3,5,2,4};
+    //    int arr[]={1,3,5,8,9,2,6,7,6,8,9};
+        int arr1[]={4,1,3,5,3,4};
      //   System.out.println(minJumps(arr)) ;
-     //   System.out.println(duplicates(arr1, arr1.length));
+    //    System.out.println(duplicates(arr1, arr1.length));
         int i= duplicates(arr1, arr1.length);
         if(i==-1)
             System.out.print("-1");

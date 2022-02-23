@@ -20,7 +20,7 @@ public class AnagramStrings {
     }
 
     public static void main(String []args){
-        String str1="medical ssh eamo";
+        String str1="medical ssh eam o";
         String str2="decimal ash mose";
         if(!anagramString(str1, str2))
             System.out.println("Not anagram strings");

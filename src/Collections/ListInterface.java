@@ -1,10 +1,7 @@
 package Collections;
 
 import java.sql.SQLOutput;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 public class ListInterface {
 
@@ -48,6 +45,12 @@ public class ListInterface {
         while(it.hasNext()){
             System.out.println(it.next());
         }
+    }
+    static void linkedList(){
+        List<Integer> ll =  new LinkedList<>();
+        ll.add(1);
+        ll.add(2);
+        ll.get(0);
     }
 
     //LIFO
